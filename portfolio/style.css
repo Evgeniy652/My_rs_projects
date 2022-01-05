@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+	width:1440px;
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+	background: url(./assets/img/bg.jpg);
+	height: 910px;
+}
+
+header {
+	height: 90px;
+}
+
+.hero {
+	width: 500px;
+	height: 330px;
+}
