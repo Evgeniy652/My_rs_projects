@@ -48,34 +48,44 @@ header {
 	align-items: center;
 }
 
+.logo1 {
+	width: 50px;
+	height: 50px;
+	margin: 9px 0px 0px 20px;
+}
+
 
 .logo1 img {
-	margin: 20px;
 	width: 50px;
 	height: 40px;
+	cursor: pointer;
 }
 
-.hero h1 {
+.hero-title {
+	width: 500px;
+	height: 120px;
 	color: #ffffff;
 	font-size: 60px;
-	margin-bottom: 10px;
+	line-height: 120px;
+	font-family: Merriweather-Bold; 
 }
 
-.hero p {
+.hero-text {
+	width: 470px;
+	height: 120px;
 	color: #ffffff;
 	font-size: 20px;
     line-height:40px;
+	font-family:Inter-Regular;
+	margin: 10px 0px 25px 0px;
 }
 
 .hero {
 	width: 500px;
 	height: 330px;
-	margin: 169px 800px 330px 80px;
+	margin: 160px 860px 0px 80px;
 	display: flex;
-	flex-wrap: nowrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
 }
 
 
@@ -89,6 +99,8 @@ header {
     display:block;
 	cursor: pointer;
     font-size: 20px;
+	line-height: 40px;
+	font-family:Inter-Regular; 
 	
 }
 
@@ -96,13 +108,13 @@ nav  {
 	width:500px;
 	height: 50px;
 	margin-left: auto;
-	display: flex;
 }
 
 .nav-list {
+	width:500px;
 	list-style: none;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 	align-items: center;
 	
   }
@@ -121,13 +133,18 @@ nav  {
 	margin-right:20px;
 	color: white;
 	font-size: 20px;
+	line-height: 50px;
+	font-family: Inter-Bold;
 	display:flex;
+	justify-content:space-between;
 	align-items: center;	
 }
 
 .switch-lng a {
 	color: white;
 	font-family: Inter-Bold;
+	font-size: 20px;
+	line-height: 50px;
 	text-decoration: none;
 }
 
@@ -139,9 +156,8 @@ nav  {
 	height: 482px;
 	background-color: black;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+	align-items:center;
 }
 
 .section-title {
@@ -152,6 +168,7 @@ width: 700px;
 height: 80px;
 color: rgba(189, 174, 130, 1);
 font-size: 40px;
+margin-top: 100px;
 }
 
 .line-center{
@@ -181,7 +198,7 @@ h2.title-with-line:after{
 .skills-container {
 	width:1400px;
 	height: 242px;
-	margin: 0 20px;
+	margin: 60px 20px 0px 20px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -189,8 +206,7 @@ h2.title-with-line:after{
 .skills-items {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+	align-items: center;
 	width:320px;
 	height: 240px;
 	padding: 0 20px;
@@ -199,27 +215,39 @@ h2.title-with-line:after{
 	text-align: center;
   }
 
+.skills-img {
+	width: 66px;
+	height: 50px;
+}
+
 .name-skills {
+	width: 280px;
+	height: 40px;
 	font-size: 20px;
 	line-height:40px;
 	font-family: Inter-Bold;
+	margin:50px 0px 20px 0px;
+}
+
+.text-skills {
+	width: 280px;
+	height: 72px;
 }
 
 #portfolio {
 	height: 1500px;
 	background-color: black;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+	align-items:center;
 }
 
 .buttons-portfolio {
 	width: 895px;
 	height: 55px;
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
+	margin-top: 60px;
 }
 
 .button2 {
@@ -233,12 +261,14 @@ h2.title-with-line:after{
     display:block;
 	cursor: pointer;
     font-size: 20px;
+	line-height: 40px;
+	font-family:Inter-Regular;
 }
 
 .portfolio-items {
 	width: 1400px;
 	height: 1145px;
-	margin:0 20px;
+	margin:60px 20px 0px 20px;
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
@@ -249,21 +279,23 @@ h2.title-with-line:after{
 	height: 945px;
 	background-color: black;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+	align-items:center;
 }
 
 .video-player {
 	width: 1400px;
 	height: 705px;
-	margin: 0 20px;
+	margin: 60px 20px 0px 20px;
 }
+
+.video-player > img {
+	width: inherit;
+ }
 
 .play-hover {
   position: relative;
   bottom: 60%;
-  align-items: center;
   display: flex;
   justify-content: center;
 }
@@ -278,18 +310,16 @@ h2.title-with-line:after{
 	height: 845px;
 	background-color: black;
 	display: flex;
-    justify-content: center;
-    align-items: center;
-	flex-wrap: wrap;
+    flex-direction: column;
+	align-items:center;
 }
 
 .price-items {
 	width: 1400px;
 	height: 505px;
-	margin: 0 20px;
+	margin: 60px 20px 0px 20px;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .price-item {
@@ -299,13 +329,14 @@ h2.title-with-line:after{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
+	margin-bottom: 100px;
 }
 
 .price-name {
 	font-family: Merriweather-Bold;
 	font-size: 28px;
 	line-height: 56px;
+	margin-top: 41px;
 
 }
 
@@ -314,6 +345,7 @@ h2.title-with-line:after{
 	font-size: 24px;
 	line-height: 48px;
 	color:rgba(189, 174, 130, 1);
+	margin-top: 20px;
 }
 
 .price-frame {
@@ -322,7 +354,7 @@ h2.title-with-line:after{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	margin: 20px 0px 40px 0px;
 }
 
 #contacts {
@@ -335,10 +367,9 @@ h2.title-with-line:after{
 .contacts-container {
 	width:450px;
 	height: 445px;
-	margin: 60px 20px 195px 970px;
+	margin: 60px 20px 0px 970px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 .contact-me {
@@ -360,7 +391,8 @@ h2.title-with-line:after{
 	font-size: 20px;
 	line-height: 40px;
 	color:rgba(189, 174, 130, 1);
-	padding-left:20px;
+	padding: 1px 0px 0px 19px;
+	margin: 21px 0px 25px 0px;
 }
 
 .phone {
@@ -372,7 +404,8 @@ h2.title-with-line:after{
 	font-size: 20px;
 	line-height: 40px;
 	color:rgba(189, 174, 130, 1);
-	padding-left:20px;
+	padding-left:19px;
+	margin-top: 20px;
 }
 
 .email {
@@ -384,7 +417,8 @@ h2.title-with-line:after{
 	font-size: 20px;
 	line-height: 40px;
 	color:rgba(189, 174, 130, 1);
-	padding-left:20px;
+	padding-left:19px;
+	margin-top: 40px;
 }
 
 ::placeholder {
@@ -407,16 +441,14 @@ footer {
 	width: 182px;
 	height: 50px;
 	display: flex;
-	justify-content: space-between;
+	gap: 20px;
 	align-items: center;
 }
+
 
 .social-list {
 	width: 188px;
 	height: 50px;
-}
-
-.social-list ul {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -428,9 +460,30 @@ footer {
 	list-style: none;
 }
 
-.footer-date a, .footer-link a {
+.footer-date a,.footer-date, .footer-link a {
 	text-decoration: none;
 	color:white;
 	font-size: 20px;
 	line-height: 50px;
+	font-family: Inter-Regular;
+}
+
+.footer-link a {
+	padding-left: 3px;
+}
+
+a:hover {
+	color:rgba(189, 174, 130, 1);
+	transition: 1s linear; 
+}
+
+.button1:hover,.button2:hover {
+	color:white;
+	transition: 1.2s linear; 
+}
+
+.hover-logo:hover {
+	transition: 0.8s linear;
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
