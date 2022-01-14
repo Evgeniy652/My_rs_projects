@@ -487,3 +487,113 @@ a:hover {
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
 }
+
+@media (max-width: 768px) {
+	body {
+		width:768px;
+		margin: 0 auto;
+	}
+
+	.bg {
+		height: 590px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	#skills {
+		height: 729px;
+	}
+
+	.section-title {	
+		width: 364px;
+		height: 80px;
+		margin-top: 80px;
+		}
+		
+
+	.skills-container {
+		width:728px;
+		height: 520px;
+		margin: 36px 20px 0px 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#portfolio {
+		height: 3870px;
+	}
+
+	.buttons-portfolio {
+		width: 445px;
+		height: 115px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-top: 50px;
+	}
+
+	.portfolio-items {
+		width: 450px;
+		height: 3485px;
+		margin:60px 159px 0px 159px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+
+	#video {
+		height: 628px;
+	}
+
+	.video-player {
+		width: 768px;
+		height: 728px;
+		margin-top:50px;
+	}
+
+	#price {
+		height: 1905px;
+	}
+
+	.price-items {
+		width: 420px;
+		height: 1615px;
+		margin: 50px 174px 0px 174px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.price-item {
+		width:420px;
+		height: 505px;
+		margin-bottom: 80px;
+	}
+	
+
+	#contacts {
+		height: 600px;
+	}
+
+	.contacts-container {
+		width:450px;
+		height: 429px;
+		margin: 60px 159px 0px 159px;
+	}
+
+	#footer {
+		height: 190px;
+	    display: flex;
+		flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding:0px;
+	}
+
+
+	
+  }
