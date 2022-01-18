@@ -13,6 +13,7 @@ body {
 html {
 	font-family: Inter-Regular;
 	color:white;
+	background-color:black;
 }
 
 @font-face {
@@ -499,6 +500,7 @@ a:hover {
 
 	.bg {
 		height: 590px;
+		background: url(./assets/img/bg2.jpg);
 	}
 
 	.logo1 {
@@ -527,11 +529,42 @@ a:hover {
 		line-height:24.2px;
 		margin: 20px 0px 60px 0px;
 	}
+
+	header {
+		overflow-x: hidden;
+	}
 	
 
 	nav {
-		display: none;
+		width: 620px;
+		height: 1024px;
+		margin-left: 148px;
+		background-color: black;
+		position: absolute;
+		z-index: 2;
+		/* right: -620px; */
+		
 	}
+
+	.nav-list {
+		position: absolute;
+		top: 50%;
+		left: 127px;
+		width:150px;
+		height: 429px;
+		display: flex;
+		flex-direction: column;
+	  }
+
+	  .nav-list a {
+		line-height: 72.55px;
+		font-size: 35px;
+	}  
+
+	.switch-lng {
+		margin-left: 442px;
+	}
+
 
 	#skills {
 		height: 729px;
@@ -541,6 +574,8 @@ a:hover {
 		width: 364px;
 		height: 80px;
 		margin-top: 80px;
+		font-size: 32px;
+		line-height: 80px;
 		}
 		
 
@@ -595,9 +630,29 @@ a:hover {
 
 	.video-player {
 		width: 768px;
-		height: 728px;
+		height: 418px;
 		margin-top:50px;
 	}
+	
+	.video-player > img {
+		width: 768px;
+		height: 418px;
+	 }
+	
+	.play-hover {
+	  bottom: 60%;
+	}
+
+	.button3 {
+		width: 75px;
+		height: 75px;
+	}
+
+	.button3 img {
+		width: 75px;
+		height: 75px;
+	}
+	
 
 	#price {
 		height: 1905px;
@@ -615,12 +670,13 @@ a:hover {
 	.price-item {
 		width:420px;
 		height: 505px;
-		margin-bottom: 80px;
+		margin-bottom: 0px;
 	}
 	
 
 	#contacts {
 		height: 600px;
+		background: url(./assets/img/contacts2.jpg);
 	}
 
 	.contacts-container {
@@ -629,7 +685,13 @@ a:hover {
 		margin: 60px 159px 0px 159px;
 		display: flex;
 	    flex-direction: column;
+		justify-content: flex-end;
 		align-items: center;
+	}
+
+	.contact-me {
+	display: flex;
+	justify-content: center;
 	}
 
 	footer {
@@ -642,6 +704,34 @@ a:hover {
 		line-height: 24.2px;
 	}
 
+
+	.hamburger .line{
+		width: 50px;
+		height: 3px;
+		background-color: #ecf0f1;
+		display: block;
+		margin: 8px auto;
+		transition: all 0.3s ease-in-out;
+		position: relative;
+		z-index: 3;
+	  }
+	  
+	  .hamburger:hover{
+		cursor: pointer;
+	  }
+	  
+	  
+	  #hamburger-1.is-active .line:nth-child(2){
+		opacity: 0;
+	  }
+	  
+	  #hamburger-1.is-active .line:nth-child(1){
+		transform: translateY(13px) rotate(45deg);
+	  }
+	  
+	  #hamburger-1.is-active .line:nth-child(3){
+		transform: translateY(-13px) rotate(-45deg);
+	  }
 
 	
   }
