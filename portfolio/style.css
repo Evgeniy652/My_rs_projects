@@ -6,7 +6,7 @@
 }
 
 body {
-	width:1440px;
+	width: 1440px;
 	margin: 0 auto;
 }
 
@@ -84,7 +84,7 @@ header {
 .hero {
 	width: 500px;
 	height: 330px;
-	margin: 160px 860px 0px 80px;
+	margin: 160px 0px 0px 80px;
 	display: flex;
     flex-direction: column;
 }

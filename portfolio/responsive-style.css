@@ -1,0 +1,184 @@
+@media (min-width: 769px) and (max-width: 1439px) { 
+	body {
+	   	max-width: 1440px;
+	   	width: auto;
+	}
+
+	.wrapper {
+	   	max-width: 1440px;
+	   	width: auto;
+	}
+
+	#skills, .skills-container {
+		height: auto;
+	}
+
+	.skills-container {
+		max-width: 1400px;
+	   	width: auto;
+	   	flex-wrap: wrap;
+    	justify-content: center;
+    	gap: 20px;
+	}
+
+	.portfolio-items {
+		max-width: 1400px;
+	   	width: auto;
+    	height: auto;
+	   	justify-content: center;
+	}
+
+	.video-player {
+		max-width: 1400px;
+	   	width: 100%;
+	   	height: auto;
+	   	position: relative;
+	}
+
+	.video-player > img {
+		width: 100%;
+	}
+
+	.price-items {
+		max-width: 1400px;
+	   	width: auto;
+	   	flex-wrap: wrap;
+	   	height: auto;
+	   	justify-content: center;
+	}
+
+	.buttons-portfolio {
+	    flex-wrap: wrap;
+    	justify-content: center;
+    	width: auto;
+    	height: auto;
+	}
+
+	#portfolio, #video, #price {
+		height: auto;
+	}
+
+	#contacts {
+		position: relative;
+	}
+
+	.contacts-container {
+		position: absolute;
+		right: 10px;
+		margin: 0;
+	}
+
+	.play-hover {
+		left: 50%;
+	    position: absolute;
+	    top: 35%;
+	    transform: translate(-50%, -50%);
+	}
+
+	.navig {
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 760px) {
+	body {
+	   	width: auto;
+	}
+
+	.wrapper {
+	   	width: auto;
+	}
+
+	.switch-lng {
+	    margin-left: auto;
+	}
+
+	.hamburger {
+		margin-right: 20px;
+	}
+
+	.hero-text {
+		max-width: 390px;
+	}
+
+	.hero, .hero-text {
+		width: auto;
+		height: auto;
+	}
+
+	.skills {
+		flex-wrap: wrap;
+	}
+
+	.skills-container {
+		width: auto;
+	}
+
+	.section-title {
+		width: 50%;
+	}
+
+	#skills, .skills-container {
+		height: auto;
+	}
+
+	.buttons-portfolio {
+		width: auto;
+    	height: auto;
+    	justify-content: center;
+    	gap: 10px;
+	}
+
+	.contacts-container {
+		width: auto;
+		margin: 10px;
+	}
+
+	.contacts-container > div {
+		width: 70%;
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.price-items {
+		width: auto;
+	}
+
+	.price-item {
+		padding: 20px 30px;
+		align-items: center;
+		width: auto;
+	}
+
+	.video-player {
+		min-width: 500px;
+		position: relative;
+		width: 100%;
+		background-size: 100%;
+    	background-repeat: no-repeat;
+	}
+
+	.play-hover {
+		left: 50%;
+	    position: absolute;
+	    top: 35%;
+	    transform: translate(-50%, -50%);
+	}
+
+	#video {
+		height: auto;
+	}
+}
+
+@media (max-width: 650px) {
+	.video-player {
+		height: 300px;
+	}
+}
+
+@media (max-width: 540px) {
+   .navig {
+   		width: 380px;
+   	}
+}
