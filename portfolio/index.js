@@ -1,4 +1,4 @@
-console.log('1.Task:https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1.md \n2.Deploy:https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/portfolio/ \n3.Done 04.01.2022 / deadline 17.01.2022 \n4.Score: 110 / 110 \n5.Самооценка  работы : \n 1)[+]Вёрстка валидная +10 \n 2)[+]Вёрстка семантическая +20 \n 3)[+]Вёрстка соответствует макету +48 \n 4)[+]Требования к css + 12 \n 5)[+]Интерактивность, реализуемая через css +20');
+console.log('1.Task:https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md \n2.Deploy:https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/portfolio/ \n3.Done 18.01.2022 / deadline 24.01.2022 \n4.Score: 85 / 85 \n5.Самооценка  работы : \n 1)[+]Вёрстка соответствует макету. Ширина экрана 768px +48 \n 2)[+]Ни на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки +15 \n 3)[+]На ширине экрана 768рх и меньше реализовано адаптивное меню +22');
 window.onload = function () {
 	// console.log('onload');
 	const hamburger = document.querySelector(".hamburger");
