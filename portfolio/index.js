@@ -9,6 +9,7 @@ window.onload = function () {
 		nav.classList.toggle('nav-active');
 	});
 	closeMenu();
+	switchingPhoto();
 };
 
 
@@ -23,6 +24,28 @@ function closeMenu() {
 		}
 	});
 
-}
+};
 
 
+function switchingPhoto() {
+	const allImg = document.querySelectorAll('.portfolio-image');
+	const allBtns = document.querySelector(".buttons-portfolio");
+	const takeEachBtn = document.querySelectorAll('.portfolio-btn');
+	allBtns.addEventListener('click', changeImage);
+	function changeImage(event){
+		if(event.target.classList.contains('portfolio-btn')){
+			const btn= event.target;
+			const season = btn.dataset.season;
+			allImg.forEach((img,ind)=>img.src=`./assets/img/${season}/${ind+1}.jpg`);
+			takeEachBtn.forEach((el)=>{
+				el.classList.remove('button1');
+				el.classList.remove('button2');
+				if(!el.classList.contains('button2') && el!=btn){
+					el.classList.add('button2'); 
+				}
+				})
+				btn.classList.add('button1');
+		}
+	};
+
+};
