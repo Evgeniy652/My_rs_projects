@@ -149,7 +149,7 @@ nav  {
 	text-decoration: none;
 }
 
-.switch-lng .en {
+.switch-lng a.gold-color {
 	color: rgba(189, 174, 130, 1);
 }
 
