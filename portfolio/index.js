@@ -18,6 +18,8 @@ window.onload = function () {
 	switchingPhoto();
 	// переключение языков-начало
 	restoreLang();
+	restoreTheme();
+	theme();
 };
 
 function closeMenu() {
@@ -41,6 +43,29 @@ function restoreLang() {
 	translate(lang);
 };
 
+function restoreTheme() {
+	const theme = localStorage.getItem('theme');
+	if(!theme) {
+		return;
+	}
+	const imgBtnTheme = document.querySelector('.theme-btn img.hover-logo')
+	const arrTheme = document.querySelectorAll('.change-theme');
+	const formLink = (img) => `./assets/svg/${img}.svg`;
+
+	arrTheme.forEach((el)=>{
+		if (theme === 'dark') {
+			el.classList.remove('light-theme');
+		} else {
+			el.classList.add('light-theme');
+		}
+	});
+
+	if (theme === 'dark') {
+		imgBtnTheme.src = formLink('sun');
+	} else {
+		imgBtnTheme.src = formLink('dark');
+	}
+};
 
 function switchingPhoto() {
 	const allImg = document.querySelectorAll('.portfolio-image');
@@ -113,4 +138,29 @@ function translate(lang, clickedEl) {
 
 function setLocalStorage(lang) {
 	localStorage.setItem('lang', lang);
+}
+
+function setThemeStorage(theme) {
+	localStorage.setItem('theme', theme);
+}
+
+function theme() {
+	const arrTheme = document.querySelectorAll('.change-theme');
+	const btnTheme = document.querySelector('.theme-btn');
+	const imgBtnTheme = btnTheme.querySelector('img.hover-logo')
+	const formLink = (img) => `./assets/svg/${img}.svg`;
+
+	btnTheme.addEventListener('click', function(event){
+		arrTheme.forEach((el)=>{
+			  el.classList.toggle('light-theme');
+	  	});
+
+		if (imgBtnTheme.src.includes('sun')) {
+			imgBtnTheme.src = formLink('dark');
+			setThemeStorage('sun');
+		} else {
+			imgBtnTheme.src = formLink('sun');
+			setThemeStorage('dark');
+		}
+	} )
 }

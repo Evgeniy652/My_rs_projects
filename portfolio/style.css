@@ -36,6 +36,11 @@ h1,h2 {
     font-family: Merriweather-Bold ;
    }
 
+.theme-btn {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
 .bg {
 	background: url(./assets/img/bg.jpg);
 	background-size: cover;
@@ -162,14 +167,14 @@ nav  {
 }
 
 .section-title {
-display: flex;
-justify-content: center;
-align-items: center;	
-width: 700px;
-height: 80px;
-color: rgba(189, 174, 130, 1);
-font-size: 40px;
-margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 700px;
+	height: 80px;
+	color: rgba(189, 174, 130, 1);
+	font-size: 40px;
+	margin-top: 100px;
 }
 
 .line-center{
@@ -180,7 +185,6 @@ margin-top: 100px;
 }
 
 h2.title-with-line {
-    
     text-align:center;
     position:relative;
     z-index:2;
@@ -358,6 +362,10 @@ h2.title-with-line:after{
 	margin: 20px 0px 40px 0px;
 }
 
+.price-frame > div {
+	text-align: center;
+}
+
 #contacts {
 	height: 700px;
 	background: url(./assets/img/contacts.jpg);
@@ -487,4 +495,36 @@ a:hover {
 	transition: 0.8s linear;
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
+}
+
+#skills.light-theme, #portfolio.light-theme, #video.light-theme, #price.light-theme {
+	background-color: #fff;
+	color: #000;
+}
+  
+.light-theme:hover {
+	color: #000;
+}
+
+h2.section-title.light-theme span {
+	background-color: #fff;
+	color: #000;
+}
+
+h2.title-with-line.light-theme:after {
+	border-top: solid 2px #000;
+}
+
+.buttons-portfolio.light-theme button.button2.portfolio-btn {
+	background-color: #fff;
+	color: black;
+}
+
+.buttons-portfolio.light-theme button.button2.portfolio-btn:hover {
+	background-color: rgba(189, 174, 130, 1);
+	color: white;
+}
+
+.buttons-portfolio.light-theme button.button1.portfolio-btn {
+	color: #fff;
 }
