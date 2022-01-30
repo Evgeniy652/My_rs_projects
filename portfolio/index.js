@@ -1,6 +1,6 @@
 import i18Obj from './translate.js';
 
-console.log('1.Task:https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part2.md \n2.Deploy:https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/portfolio/ \n3.Done 18.01.2022 / deadline 24.01.2022 \n4.Score: 85 / 85 \n5.Самооценка  работы : \n 1)[+]Вёрстка соответствует макету. Ширина экрана 768px +48 \n 2)[+]Ни на одном из разрешений до 320px включительно не появляется горизонтальная полоса прокрутки +15 \n 3)[+]На ширине экрана 768рх и меньше реализовано адаптивное меню +22');
+console.log('1.Task:https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part3.md \n2.Deploy:https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/portfolio/ \n3.Done 25.01.2022 / deadline 31.01.2022 \n4.Score: 80 / 80 \n5.Самооценка  работы : \n 1)[+]Смена изображений в секции portfolio +25\n 2)[+]Перевод страницы на два языка +25 \n 3)[+]Переключение светлой и тёмной темы +25\n 4)[+]Дополнительный функционал: выбранный пользователем язык отображения страницы и светлая или тёмная тема сохраняются при перезагрузке страницы +5');
 window.onload = function () {
 	// console.log('onload');
 	const hamburger = document.querySelector(".hamburger");
