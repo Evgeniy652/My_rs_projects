@@ -1,2 +1,1 @@
-# custom-video
-https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-3.md
+* [custom-video](https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/custom-video/)
