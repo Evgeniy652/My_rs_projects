@@ -13,7 +13,7 @@ main {
 }
 
 .btn {
-	margin-top: 40px;
+	margin-top: 50px;
 	cursor: pointer;
 	font-size: 25px;
 	font-weight:bolder;
@@ -28,6 +28,26 @@ main {
 	transition: 0.4s;
 }
 
+.lang {
+	width:200px ;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 input {
+	cursor: pointer;
+	width: 20px; height: 20px; /* Размеры */
+ background: #F5F5F5; /* Серый цвет фона */
+ border-radius: 50%; /* Круглый переключатель */
+ box-shadow: inset 2px 1px 5px 1px rgba(0,0,0,0.5); /* Тень внутри */
+}
+
+
+
 .picture {
 	width: 300px;
 	height: 250px;
@@ -35,7 +55,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	/* background-color:burlywood; */
 }
 
 footer {
@@ -86,3 +105,4 @@ a:hover {
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
 }
+
