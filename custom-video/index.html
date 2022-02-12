@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="content">
+		<h1 class="title-with-line">Video</h1>
+		<div class="player">
+			<div class="player__wrapper">
+				<video class="player-video" src="./assets/video/video.mp4"></video>
+				<img src="./assets/svg/play-btn.svg" alt="play-hover" class="hover-logo main-play-img">
+			</div>
+			<div class="player-controls">
+				<button class="play-btn hover-logo" ></button>
+				<input class="progress-range" type="range" id="progress" name="progress" min="0" max="100" value="0">
+				<button class="volume-btn hover-logo"></button>
+				<input class="volume-range" type="range" id="volume" name="volume" min="0" max="100">
+			</div>
+		</div>
+		<footer>
+			<div class="footer-date">
+				<div>©</div>
+				<div>2022</div>
+				<div><a href="https://github.com/Evgeniy652">github</a></div>
+			</div>
+			<div class="footer-link"><a href="https://rs.school/js-stage0/">Rolling Scopes School</a></div>
+		</footer>
+	</div>
+	<script src="./index.js"></script>
+</body>
+</html>
