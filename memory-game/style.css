@@ -13,16 +13,16 @@
   }
 
   .name {
-	  margin:20px auto auto auto;
+	  margin:10px auto auto auto;
 	  color: rgb(37, 182, 182);
   }
 
   .game {
-    margin-top: 20px; 
+    margin-top: 10px; 
 	width: 490px; 
 	display: flex;
 	flex-wrap: wrap;
-	perspective: 1000px;
+	perspective: 900px;
   }
 
   .card {	  
@@ -37,6 +37,7 @@
   cursor: pointer;
   transform-style: preserve-3d;
   transition: transform .5s;
+  position: relative;
   }
 
   .card:active {
@@ -54,7 +55,14 @@
   }
 
   .front {
-	  display: none;
+	position: absolute;
+	  transform: rotateY(180deg);
+	  backface-visibility: hidden;
+  }
+
+  .back {
+	position: absolute;
+	backface-visibility: hidden;
   }
 
   .progress {
@@ -62,9 +70,35 @@
 	  color: rgb(37, 182, 182);
   }
 
+  .color-satus {
+	  color: rgb(235, 79, 79);
+  }
+
   .status {
 	  margin-top: 10px;
 	  color: rgb(37, 182, 182);
+  }
+
+  .btn {
+	 width: 160px;
+	 background-color:rgb(37, 182, 182);
+	 cursor: pointer;
+	 font-size: 20px;
+	 margin-top: 10px;
+	 border-radius:5px;
+  }
+
+  .btn2 {
+	width: 230px;
+	background-color:rgb(37, 182, 182);
+	cursor: pointer;
+	font-size: 20px;
+	margin-top: 10px;
+	border-radius:5px;
+  }
+
+  .btn:hover, .btn2:hover {
+	  background-color:rgb(228, 87, 87);
   }
 
   footer {
@@ -72,7 +106,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-top:30px;
+	margin-top:15px;
 } 
 
 
@@ -114,4 +148,8 @@ a:hover {
 	transition: 0.8s linear;
 	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
+}
+
+.none-click {
+	pointer-events: none;
 }
