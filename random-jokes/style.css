@@ -1,0 +1,108 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+
+}
+
+.btn {
+	margin-top: 50px;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight:bolder;
+	border-radius: 20px;
+	width: 300px;
+	background-color:rgba(233, 223, 223, 0.664);
+	transition: 0.4s;
+}
+
+.btn:hover {
+	background-color:rgba(155, 152, 150, 0.623);
+	transition: 0.4s;
+}
+
+.lang {
+	width:200px ;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 input {
+	cursor: pointer;
+	width: 20px; height: 20px; /* Размеры */
+ background: #F5F5F5; /* Серый цвет фона */
+ border-radius: 50%; /* Круглый переключатель */
+ box-shadow: inset 2px 1px 5px 1px rgba(0,0,0,0.5); /* Тень внутри */
+}
+
+
+
+.picture {
+	width: 300px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+
+footer {
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:20px;
+} 
+
+
+
+.footer-date a,.footer-date  {
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+
+.footer-link {
+	margin-left: 25px;
+}
+
+
+
+.footer-date {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	font-weight: bold;
+}
+
+
+
+.rs {
+	width: 60px;
+	height: 60px;
+}
+
+a:hover {
+	color:rgba(189, 174, 130, 1);
+	transition:  0.5s; 
+}
+
+.hover-logo:hover {
+	transition: 0.8s linear;
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
