@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>memory-game</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+
+	<div class="name">
+		<h2>Memory game</h2>
+
+	</div>
+
+	<button class="btn2" type="button">record statistics</button>
+
+	
+
+
+	<section class="game">
+		<div data-cardnum="1" class="card">
+			<img  class="front" src="img/html.svg" alt="html">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="1" class="card">
+			<img  class="front" src="img/html.svg" alt="html">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="2" class="card">
+			<img  class="front" src="img/java.svg" alt="java">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="2" class="card">
+			<img  class="front" src="img/java.svg" alt="java">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="3" class="card">
+			<img  class="front" src="img/javascript.svg" alt="javascript">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+			<div data-cardnum="3" class="card">
+			<img  class="front" src="img/javascript.svg" alt="javascript">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="4" class="card">
+			<img  class="front" src="img/nodejs.svg" alt="nodejs">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="4" class="card">
+			<img class="front" src="img/nodejs.svg" alt="nodejs">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="5" class="card">
+			<img  class="front" src="img/python.svg" alt="python">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="5" class="card">
+			<img  class="front" src="img/python.svg" alt="python">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="6" class="card">
+			<img  class="front" src="img/react.svg" alt="react">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+
+		<div data-cardnum="6" class="card">
+			<img  class="front" src="img/react.svg" alt="react">
+			<img class="back" src="img/question.svg" alt="Memory Card">
+		</div>
+	</section>
+
+	<div class="progress">
+		<h3>game progress: matches found <span class="score color-satus">0</span> of 6</h3>
+	</div>
+
+	<div class="status">
+		<h3>status player: <span class="win color-satus">loser</span> , number of moves: <span class="mov color-satus">0</span></h3>
+	</div>
+
+	<button class="btn" onclick='document.location.reload()'>start again</button>
+
+	<footer>
+		<div class="footer-date">
+			<div>©</div>
+			<div>2022</div>
+			<div><a href="https://github.com/Evgeniy652">github</a></div>
+		</div>
+		<div class="footer-link"><a href="https://rs.school/js-stage0/"><img class="rs hover-logo" src="./img/rs.svg" alt="RS School"></a></div>
+
+	</footer>
+
+	<script src="./index.js"></script>
+</body>
+
+</html>
