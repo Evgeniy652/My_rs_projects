@@ -1,5 +1,5 @@
-* [memory-game](https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/memory-game/)
-* [random-jokes](https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/random-jokes/)
-* [custom-video](https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/custom-video/)
-* [portfolio](https://rolling-scopes-school.github.io/evgeniy652-JSFEPRESCHOOL/portfolio/)
+* [memory-game](https://evgeniy652.github.io//My_rs_projects/memory-game/)
+* [random-jokes](https://evgeniy652.github.io//My_rs_projects/random-jokes/)
+* [custom-video](https://evgeniy652.github.io//My_rs_projects/custom-video/)
+* [portfolio](https://evgeniy652.github.io//My_rs_projects/portfolio/)
 
