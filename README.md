@@ -6,4 +6,5 @@
 * [migration](https://evgeniy652.github.io//My_rs_projects/migration/)
 * [online-store](https://evgeniy652.github.io//My_rs_projects/online-store/)
 * [presentation](https://evgeniy652.github.io//My_rs_projects/presentation/)
+* [keyboard](https://evgeniy652.github.io//My_rs_projects/keyboard/)
 
